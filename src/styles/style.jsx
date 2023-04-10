@@ -36,15 +36,20 @@ export const NavBar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 15px;
 `;
 
 export const NavCon = styled.div`
   height: 30px;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   margin-top:10px;
   margin-bottom: 20px;
-//   background-color: red;
-//   background-color: green;
 `;
 
+export const Title = styled.h1`
+  font-size: 23px;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 5px;
+`
