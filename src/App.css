@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 100;
+}
+
+* p {
+  font-size: 15px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.promotion {
+  max-width: 100%;
+  background-color: #282828;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding: 17px;
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.fade-text p {
+  opacity: 0;
+}
+
+.fade-text p.fade-in {
+  animation: fade-in 2s ease forwards;
+}
+
+.fade-text p.fade-out {
+  animation: fade-out 2s ease forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.login {
+  /* background-color: aqua; */
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.cart {
+  display: flex;
+  margin-top: 3px;
+}
+
+.cart p{
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.circle {
+  height: 17px;
+  width: 17px;
+  color: white;
+  background-color: #282828;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 2px;
+  padding: 2px;
+  display: inline-block;
+}
