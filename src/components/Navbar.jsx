@@ -1,12 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation} from 'react-router-dom'
 import { Container,Container2, NavBar, NavCon,Logo } from '../styles/style'
 import Cartlogo from '../assets/Happykids-Materials/Icon/cart-svgrepo-com.svg'
 import '../App.css'
 
 function Navbar(){
+    const location = useLocation();
+
     return (
         <NavBar>
+            
             <Container>
             <Logo>
                 <Link to="/" style={{textDecoration: 'none',color: 'black',opacity:'0.9'}} > happy kids</Link>

@@ -111,3 +111,61 @@
     max-width: 90%;
   }
 }
+
+.footer {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.footerlink {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlinkobj {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 5px;
+}
+
+.footer button {
+  font-size: 13px;
+  color: white;
+  width: 40%;
+  border: 1px solid;
+  padding: 12px 9px;
+  background-color: black;
+}
+
+.footer p, button {
+  font-size: 13px;
+}
+
+.footer input{
+  width: 90%;
+  font-size: 13px;
+  border: 1px solid;
+  padding: 12px 9px;
+}
+
+.foot_icon {
+  margin-bottom: 8%;
+}
+
+.foot_icon a{
+  margin: 0.5em 0.5em 0 0.5em;
+}
+
+.footer_mail {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin-top: 3%;
+  gap: 7px;
+}

@@ -6,6 +6,7 @@ function Shop() {
         <hr style={{opacity: '0.4'}}/>
         <h1>Shop Collection</h1>
         
+        
     </div>
   )
 }
