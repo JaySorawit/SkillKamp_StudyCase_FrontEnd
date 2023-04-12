@@ -9,8 +9,7 @@ function Footer() {
   <div className='footer'>
     <hr/>
     <div className="box"></div>
-    <Title> happy kids </Title> 
-    
+    <Title> happy kids </Title>  
     <div className="box"></div>
     <div className="footerlink">
       <div className="footerlinkobj">
@@ -31,7 +30,6 @@ function Footer() {
         <Link to ="/FAQ" style={{textDecoration: 'none',color: 'black',opacity:'0.5'}}>FAQ</Link>
       </div>
     </div>
-    <div className="box"></div>
     <p style={{fontSize: '19px'}}>Join Our Mailing List</p>
     <div className='footer_mail'>
         <input type='text' placeholder='Enter your email here*'></input>
