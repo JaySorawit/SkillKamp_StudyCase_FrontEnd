@@ -1,13 +1,12 @@
-import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 export const Container = styled.div`
-//   background-color: red;
   padding-left: 200px;
   display: flex;
   flex-direction: column;
+
   @media only screen and (max-width: 768px) {
-    max-width: 100%;
     padding: 0 20px;
   }
 `;
@@ -15,10 +14,16 @@ export const Container = styled.div`
 export const Container2 = styled.div`
   display: flex;
   flex-direction: row;
-//   background-color: green;
   margin-left: 50px;
   padding-top: 150px;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 0;
+  }
 `;
 
 export const Logo = styled.div`
@@ -41,9 +46,9 @@ export const NavBar = styled.nav`
 
 export const NavCon = styled.div`
   height: 30px;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 20px;
 `;
 
@@ -52,4 +57,4 @@ export const Title = styled.h1`
   text-align: center;
   font-weight: 100;
   letter-spacing: 5px;
-`
+`;
